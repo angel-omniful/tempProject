@@ -2,9 +2,11 @@ package main
 
 import (
     "github.com/omniful/go_commons/log"
+    "fmt"
 )
 
 func main() {
+    fmt.Println("this is the change for second commit")
     log.Infof("OMS service is starting up...")
 
     // Example logs at various levels
